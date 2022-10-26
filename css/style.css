@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #181818;
+}
+
+.acardion {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 630px;
+    width: 100%;
+}
