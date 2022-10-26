@@ -31,4 +31,31 @@ body {
     user-select: none;
     border-bottom: 1px dashed rgba(0,0,0, .08);
     border-top: 1px dashed rgba(0,0,0, .08);
+    font-size: 0.9rem;
+}
+
+open .acardion_header h3 {
+    opacity: 1 !important;
+    padding-left: 4px;
+}
+.open .acardion_header .icon {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0, .16);
+}
+.open .acardion_header .icon span {
+    transform: rotate(135deg);
+}
+.acardion h3 {
+    pointer-events: none;
+    user-select: none;
+    opacity: .6;
+    transition: all .25s ease;
+    font-weight: normal;
+}
+.acardion .acardion_header {
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all .25s ease;
 }
