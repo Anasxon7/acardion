@@ -13,3 +13,22 @@ body {
     max-width: 630px;
     width: 100%;
 }
+.acardion_header h3 {
+    opacity: 1;
+} 
+.acardion:not(.open) .acardion_header:hover h3 {
+    padding-left: 4px;
+}
+.acardion_content  {
+    height: 0;
+    overflow: hidden;
+    transition: all .25s  ease;
+}
+.acardion_content p {
+    padding: 15px 20px;
+    padding-top: 10px;
+    opacity: .8;
+    user-select: none;
+    border-bottom: 1px dashed rgba(0,0,0, .08);
+    border-top: 1px dashed rgba(0,0,0, .08);
+}
