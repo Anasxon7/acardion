@@ -34,7 +34,7 @@ body {
     font-size: 0.9rem;
 }
 
-open .acardion_header h3 {
+.open .acardion_header h3 {
     opacity: 1 !important;
     padding-left: 4px;
 }
