@@ -9,14 +9,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
-    background-color: #181818;
+    min-height: 100vh;
+    background-color: #e3f2fd;
 }
 
 .accordion {
-    background-color: #fff;
-    padding: 25px;
-    border-radius: 30px;
-    max-width: 630px;
+    max-width: 530px;
     width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 15px;
+    border-radius: 8px;
 }
