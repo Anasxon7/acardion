@@ -37,11 +37,18 @@ body {
     padding: 0 15px;
     align-items: center;
     justify-content: space-between;
+    transition: all 0.2s linear;
+}
+.accordion-content.open {
+    padding-bottom: 10px;
 }
 .accordion-content header {
     font-size: 14px;
     font-weight: 500;
     color: #333;
+}
+.accordion-content.open  header{
+    min-height: 35px;
 }
 .accordion-content header i {
     font-size: 15px;

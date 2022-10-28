@@ -8,10 +8,16 @@ accordionContent.forEach( (item, index) => {
         let description = item.querySelector('.description')
         if(item.classList.contains("open")) {
             description.style.height = `${description.scrollHeight}px`
+            item.querySelector('i').classList.replace('fa-plus', 'fa-minus')
         } else {
             description.style.height = '0px';
-        }
-        console.log(description);
+            item.querySelector('i').classList.replace('fa-minus', 'fa-plus')
 
+        }
+        removeOpen(index)
     })
 })
+
+function removeOpen(index) {
+    
+}
