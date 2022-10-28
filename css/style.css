@@ -30,6 +30,13 @@ body {
 
 .accordion  .accordion-content header {
     display: flex;
+    min-height: 50px;
+    padding: 0 15px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.accordion  .accordion-content  .description {
+    
 }
