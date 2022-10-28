@@ -28,6 +28,7 @@ body {
     border-radius: 4px;
     background: #fff7f0;
     border: 1px solid #ffd683;
+    overflow: hidden;
 }
 
 .accordion  .accordion-content header {
@@ -47,8 +48,10 @@ body {
     color: #333;
 }
 .accordion-content .description {
+    height: 0;
     font-size: 12px;
     color: #333;
     font-weight: 400;
     padding: 0 15px;
+    transition: all 0.2s linear;
 }
