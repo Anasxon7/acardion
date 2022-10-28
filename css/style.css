@@ -21,3 +21,15 @@ body {
     margin: 0 15px;
     border-radius: 8px;
 }
+
+.accordion  .accordion-content {
+    border-radius: 4px;
+    background: #fff7f0;
+    border: 1px solid #ffd683;
+}
+
+.accordion  .accordion-content header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
